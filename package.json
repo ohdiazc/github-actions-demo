@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test_ori": "node --test",
-    "test": "node src/index.test.js",
+    "test": "node --test",
+    "test_me": "node src/index.test.js",
     "build": "echo 'Building project...' && mkdir -p dist && cp -r src/* dist/",
     "lint": "echo 'Linting code...' && exit 0"
   },
